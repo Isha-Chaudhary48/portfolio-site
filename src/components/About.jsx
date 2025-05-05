@@ -45,7 +45,7 @@ export default function About() {
                     <FaLink />
                   </div>
                   <a
-                    href="https://drive.google.com/file/d/1Z_KfM4GSOuDi9p7gZjOsbs-MFfgSBb6C/view?usp=drivesdk"
+                    href="https://drive.google.com/file/d/1ZcuFe5-wfkLyo72qxolXXuM5LzxUof2m/view?usp=drivesdk"
                     className="text-white"
                   >
                     Resume
