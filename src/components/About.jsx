@@ -45,7 +45,7 @@ export default function About() {
                     <FaLink />
                   </div>
                   <a
-                    href="https://chef-bot-frontend.vercel.app/"
+                    href="https://drive.google.com/file/d/1Z_KfM4GSOuDi9p7gZjOsbs-MFfgSBb6C/view?usp=drivesdk"
                     className="text-white"
                   >
                     Resume
