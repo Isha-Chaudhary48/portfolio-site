@@ -46,7 +46,7 @@ export default function ProjectSection() {
                 alt="chefTable image"
               />
             </a>
-            <div className="gap-4 mt-10 mb-10 grid grid-cols-2 sm:flex sm:text-sm">
+            <div className="gap-4 mt-10 mb-10 grid grid-cols-2 sm:flex text-sm ">
               <button className="border border-black/20 p-2 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
                 <img className="h-[30px] w-[30px]   " src={react} alt="" />{" "}
                 React
