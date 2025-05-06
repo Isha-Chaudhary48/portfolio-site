@@ -14,7 +14,10 @@ import cssLogo from "../assets/logos/cssLogo.svg";
 export default function ProjectSection() {
   return (
     <>
-      <div className="h-full  flex justify-center items-center flex-col mt-10 sm:p-10 font-mono">
+      <div
+        id="projects"
+        className="h-full  flex justify-center items-center flex-col mt-10 sm:p-10 font-mono"
+      >
         <h1 className="text-2xl sm:text-4xl lg:text-5xl font-semibold">
           Recent Projects
         </h1>
