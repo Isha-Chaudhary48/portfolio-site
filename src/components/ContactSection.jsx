@@ -11,11 +11,12 @@ export default function ContactSection() {
     <>
       <footer
         id="contact"
-        className="contact  h-[400px] flex justify-center items-center flex-col    p-10 text-start mb-0 mt-5    text-[#434361] font-mono"
+        className="contact  h-[450px] flex justify-center items-center flex-col    p-10 text-start mb-0 mt-5    text-[#434361] font-mono"
       >
         <h1 className="text-center text-2xl sm:text-4xl lg:text-5xl text-black font-semibold mb-8">
           Contact
         </h1>
+        <hr className="w-[100%] md:w-[85%] mt-5  " />
         <div className=" w-[100%] md:w-[70%]  grid grid-rows-1 grid-cols-2 justify-center items-center ">
           <div>
             <p className="text-xl pt-4 pb-4">Contact Us</p>
@@ -36,7 +37,7 @@ export default function ContactSection() {
             </a>
           </div>
         </div>
-        <hr className="w-[90%] md:w-[80%]  " />
+        <hr className="w-[100%] md:w-[85%] mt-5  " />
         <div className="flex justify-center"></div>
 
         <div className=" h-40 pl-5 pr-5 pt-5 flex justify-center items-center  text-[#434361] text-center  ">
