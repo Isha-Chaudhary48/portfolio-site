@@ -24,7 +24,9 @@ export default function ProjectSection() {
 
         <div className=" w-[100%] md:w-[70%]">
           <div className="p-10">
-            <h1 className="text-2xl pb-4 font-semibold">ChefTable</h1>
+            <h1 className="text-xl md:text-2xl pb-4 font-semibold">
+              ChefTable
+            </h1>
             <div className="text-[#434361] text-lg pb-4 flex justify-center items-center ">
               ChefTable is an AI-powered recipe assistant web app that helps
               users generate personalized recipes using Gemini AI based on their
@@ -46,7 +48,7 @@ export default function ProjectSection() {
                 alt="chefTable image"
               />
             </a>
-            <div className="gap-4 mt-10 mb-10 grid grid-cols-2 sm:flex text-sm  md:text-lg ">
+            <div className="gap-4 mt-10 mb-10 grid grid-cols-2 sm:flex   md:text-lg ">
               <button className="border border-black/20 p-2 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
                 <img className="h-[30px] w-[30px]   " src={react} alt="" />{" "}
                 React
@@ -59,13 +61,13 @@ export default function ProjectSection() {
                 />{" "}
                 Node.js
               </button>
-              <button className="border border-black/20 p-2 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
+              <button className="border border-black/20 p-2 rounded-md hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
                 <img
                   className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]   "
                   src={tailwind}
                   alt=""
                 />{" "}
-                TailwindCSS
+                Tailwind
               </button>
 
               <button className="border border-black/20 p-2 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
@@ -89,7 +91,9 @@ export default function ProjectSection() {
             </button>
           </div>
           <div className="p-10">
-            <h1 className="text-2xl pb-4 font-semibold">Shortify</h1>
+            <h1 className=" text-xl md:text-2xl pb-4 font-semibold">
+              Shortify
+            </h1>
             <div className="text-[#434361] text-lg pb-4 flex justify-center items-center ">
               Shortify is a fast and lightweight URL shortener that transforms
               long links into short, shareable ones. It features a clean
