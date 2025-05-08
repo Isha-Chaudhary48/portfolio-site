@@ -16,7 +16,7 @@ export default function ProjectSection() {
     <>
       <div
         id="projects"
-        className="h-full  flex justify-center items-center flex-col mt-10 sm:p-10 font-mono"
+        className="h-full  flex justify-center items-center flex-col mt-10 sm:p-10  "
       >
         <h1 className="text-2xl sm:text-4xl lg:text-5xl font-semibold">
           Recent Projects
@@ -46,27 +46,31 @@ export default function ProjectSection() {
                 alt="chefTable image"
               />
             </a>
-            <div className="gap-4 mt-10 mb-10 grid grid-cols-2 sm:flex text-sm ">
+            <div className="gap-4 mt-10 mb-10 grid grid-cols-2 sm:flex text-sm  md:text-lg ">
               <button className="border border-black/20 p-2 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
                 <img className="h-[30px] w-[30px]   " src={react} alt="" />{" "}
                 React
               </button>
               <button className="border border-black/20 p-2 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
                 <img
-                  className="h-[30px] w-[30px]   "
+                  className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]   "
                   src={nodejsStackedDark}
                   alt=""
                 />{" "}
                 Node.js
               </button>
               <button className="border border-black/20 p-2 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
-                <img className="h-[30px] w-[30px]   " src={tailwind} alt="" />{" "}
+                <img
+                  className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]   "
+                  src={tailwind}
+                  alt=""
+                />{" "}
                 TailwindCSS
               </button>
 
               <button className="border border-black/20 p-2 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
                 <img
-                  className="h-[30px] w-[30px]   "
+                  className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]   "
                   src={mongodbLogo}
                   alt=""
                 />
@@ -106,22 +110,39 @@ export default function ProjectSection() {
                 alt="chefTable image"
               />
             </a>
-            <div className="grid grid-cols-2  sm:flex gap-4 mt-10 mb-10 sm:text-sm">
+            <div className="grid grid-cols-2  sm:flex gap-4 mt-10 mb-10 sm:text-sm  md:text-lg">
               <button className="border border-black/20 p-2 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
                 <img
-                  className="h-[30px] w-[30px]   "
+                  className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
                   src={nodejsStackedDark}
                   alt=""
                 />{" "}
                 Node.js
               </button>
               <button className="border border-black/20 p-2 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
-                <img className="h-[30px] w-[30px]   " src={htmlLogo} alt="" />{" "}
+                <img
+                  className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
+                  src={htmlLogo}
+                  alt=""
+                />{" "}
                 HTML
               </button>
               <button className="border border-black/20 p-2 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
-                <img className="h-[30px] w-[30px]   " src={cssLogo} alt="" />{" "}
+                <img
+                  className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]   "
+                  src={cssLogo}
+                  alt=""
+                />{" "}
                 CSS
+              </button>
+
+              <button className="border border-black/20 p-2 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
+                <img
+                  className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]   "
+                  src={mongodbLogo}
+                  alt=""
+                />
+                MongoDB
               </button>
             </div>
 
