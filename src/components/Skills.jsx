@@ -13,7 +13,19 @@ import postmanLogo from "../assets/logos/postmanLogo.svg";
 import nextjs from "../assets/logos/nextjs.svg";
 import vercel from "../assets/logos/vercel.svg";
 import vite from "../assets/logos/vite.svg";
+import Matplotlib from "../assets/logos/Matplotlib.svg";
+import Jupyter from "../assets/logos/Jupyter.svg";
+import NumPy from "../assets/logos/NumPy.svg";
+import Pandas from "../assets/logos/Pandas.svg";
+import PostgresSQL from "../assets/logos/PostgresSQL.svg";
+import Python from "../assets/logos/Python.svg";
+import Streamlit from "../assets/logos/Streamlit.svg";
+import Ubuntu from "../assets/logos/Ubuntu.svg";
+import TypeScript from "../assets/logos/TypeScript.svg";
+import expolatory from '../assets/logos/exploratory-analysis.png';
+
 export default function Skills() {
+
   return (
     <>
       <div
@@ -146,6 +158,87 @@ export default function Skills() {
             />
             <h1>Vercel</h1>
           </button>
+          <button className="border  border-black/20  p-2   rounded-md cursor-pointer  hover:opacity-80 hover:bg-black/5    text-black flex gap-1 justify-center items-center">
+            <img
+              className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
+              src={Jupyter}
+              alt=""
+            />
+            <h1>Jupyter</h1>
+          </button>
+          <button className="border  border-black/20  p-2   rounded-md cursor-pointer  hover:opacity-80 hover:bg-black/5    text-black flex gap-1 justify-center items-center">
+            <img
+              className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
+              src={Matplotlib}
+              alt=""
+            />
+            <h1>Matplotlib</h1>
+          </button>
+          <button className="border  border-black/20  p-2   rounded-md cursor-pointer  hover:opacity-80 hover:bg-black/5    text-black flex gap-1 justify-center items-center">
+            <img
+              className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
+              src={NumPy}
+              alt=""
+            />
+            <h1>Numpy</h1>
+          </button>
+          <button className="border  border-black/20  p-2   rounded-md cursor-pointer  hover:opacity-80 hover:bg-black/5    text-black flex gap-1 justify-center items-center">
+            <img
+              className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
+              src={Pandas}
+              alt=""
+            />
+            <h1>Pandas</h1>
+          </button>
+          <button className="border  border-black/20  p-2   rounded-md cursor-pointer  hover:opacity-80 hover:bg-black/5    text-black flex gap-1 justify-center items-center">
+            <img
+              className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
+              src={PostgresSQL}
+              alt=""
+            />
+            <h1>PostgresSQL</h1>
+          </button>
+          <button className="border  border-black/20  p-2   rounded-md cursor-pointer  hover:opacity-80 hover:bg-black/5    text-black flex gap-1 justify-center items-center">
+            <img
+              className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
+              src={Python}
+              alt=""
+            />
+            <h1>Python</h1>
+          </button>
+          <button className="border  border-black/20  p-2   rounded-md cursor-pointer  hover:opacity-80 hover:bg-black/5    text-black flex gap-1 justify-center items-center">
+            <img
+              className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
+              src={Streamlit}
+              alt=""
+            />
+            <h1>Streamlit</h1>
+          </button>
+          <button className="border  border-black/20  p-2   rounded-md cursor-pointer  hover:opacity-80 hover:bg-black/5    text-black flex gap-1 justify-center items-center">
+            <img
+              className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
+              src={Ubuntu}
+              alt=""
+            />
+            <h1>Matplotlib</h1>
+          </button>
+          <button className="border  border-black/20  p-2   rounded-md cursor-pointer  hover:opacity-80 hover:bg-black/5    text-black flex gap-1 justify-center items-center">
+            <img
+              className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
+              src={TypeScript}
+              alt=""
+            />
+            <h1>TypeScript</h1>
+          </button>
+          <button className="border  border-black/20  p-2   rounded-md cursor-pointer  hover:opacity-80 hover:bg-black/5    text-black flex gap-1 justify-center items-center">
+            <img
+              className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
+              src={expolatory}
+              alt=""
+            />
+            <h1>Data Analysis</h1>
+          </button>
+
         </div>
       </div>
     </>

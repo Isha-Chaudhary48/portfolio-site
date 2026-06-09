@@ -28,16 +28,8 @@ export default function About() {
 
             <div className=" text-lg md:text-lg    ">
               <div className="mt-12  text-[#434361] ">
-                Hi, I’m a 3rd-year Computer Science and Engineering student and
-                an aspiring developer. When I first started coding, I found it
-                confusing—syntax, errors, and logic all seemed overwhelming. At
-                that time, I wasn’t really interested in it. But as I explored
-                different technologies and started working on projects, I
-                gradually developed a passion for solving problems through code.
-                Now, I enjoy building applications, learning new concepts, and
-                improving my skills every day. As a fresher, I’m eager to gain
-                real-world experience, collaborate on exciting projects, and
-                grow as a developer.
+                Hi, I'm a Computer Science and Engineering student with a strong passion for software development and technology. What began as a challenge soon became a journey of continuous learning, problem-solving, and innovation. Through hands-on projects, I have developed a solid foundation in building practical and efficient solutions. I enjoy exploring new technologies, writing clean code, and turning ideas into meaningful applications. Each project strengthens my technical skills and deepens my understanding of how technology can create real impact. As an aspiring developer, I am committed to continuous growth, embracing challenges, and delivering quality work. I am now seeking opportunities to apply my knowledge, collaborate with talented teams, and contribute to projects that solve real-world problems while advancing my professional journey.
+
               </div>
               <div>
                 <button className="border-black text-white p-4 bg-black mt-4 rounded-md flex justify-center items-center gap-2 ">
@@ -45,7 +37,7 @@ export default function About() {
                     <FaLink />
                   </div>
                   <a
-                    href="https://drive.google.com/file/d/1aGHZyq7OZtAsFUiJNYRggqwCCq_NNOu7/view?usp=drivesdk"
+                    href="https://drive.google.com/file/d/1_oX0oKLowhIj5wgyg5KlfNVlgFX9GdpX/view?usp=drivesdk"
                     className="text-white"
                   >
                     Resume
