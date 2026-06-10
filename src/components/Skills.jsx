@@ -220,7 +220,7 @@ export default function Skills() {
               src={Ubuntu}
               alt=""
             />
-            <h1>Matplotlib</h1>
+            <h1>Ubuntu</h1>
           </button>
           <button className="border  border-black/20  p-2   rounded-md cursor-pointer  hover:opacity-80 hover:bg-black/5    text-black flex gap-1 justify-center items-center">
             <img
