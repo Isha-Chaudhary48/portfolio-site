@@ -5,8 +5,17 @@ import htmlLogo from "../assets/logos/htmlLogo.svg";
 import react from "../assets/logos/react.svg";
 import nodejsStackedDark from "../assets/logos/nodejsStackedDark.svg";
 import tailwind from "../assets/logos/tailwind.svg";
+import ADIS from "../assets/projectPhotos/ADIS.png";
 
 import ExpressLogo from "../assets/logos/ExpressLogo.svg";
+import pythonLogo from "../assets/logos/Python.svg"
+import pandasLogo from "../assets/logos/Pandas.svg"
+import numpyLogo from "../assets/logos/NumPy.svg"
+import matplotlibLogo from "../assets/logos/Matplotlib.svg"
+import seabornLogo from "../assets/logos/seaborn-1.svg"
+
+import streamlitLogo from "../assets/logos/Streamlit.svg"
+
 
 import { FaLink } from "react-icons/fa";
 import cssLogo from "../assets/logos/cssLogo.svg";
@@ -111,7 +120,7 @@ export default function ProjectSection() {
                 className="cursor-zoom-in hover:opacity-70 rounded-md md:h-[500px] "
                 loading="lazy"
                 src={shortify}
-                alt="chefTable image"
+                alt="shortify image"
               />
             </a>
             <div className="grid grid-cols-2  sm:flex gap-4 mt-10 mb-10 sm:text-sm  md:text-lg">
@@ -154,6 +163,97 @@ export default function ProjectSection() {
               <FaLink />
               <a
                 href="https://shortify-url-ten.vercel.app/"
+                className="text-white"
+              >
+                Visit Website
+              </a>
+            </button>
+           
+          </div>
+          <div className="p-10">
+            <h1 className=" text-xl md:text-2xl pb-4 font-semibold">
+              Asian Development Analysis
+            </h1>
+            <div className="text-[#434361] text-lg pb-4 flex justify-center items-center ">
+              Asian Development Analysis is a data analytics project where I analyzed socio-economic development indicators of more than 40 Asian countries. The goal was to identify development patterns, economic trends, and disparities among countries using data visualization and statistical analysis. The project was built using Python, Pandas, NumPy, Matplotlib, Seaborn, and Streamlit.
+            </div>
+            <a
+              target="_blank"
+              href=""
+              className="flex justify-center  items-center  "
+            >
+              <img
+                className="cursor-zoom-in hover:opacity-70 rounded-md md:h-[500px] "
+                loading="lazy"
+                src={ADIS}
+                alt="ADIS image"
+              />
+            </a>
+            <div className="grid grid-cols-2  sm:flex gap-4 mt-10 mb-10 sm:text-sm  md:text-lg">
+              <button className="border border-black/20 p-5 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center ">
+                <img
+                  className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
+                  src={pythonLogo}
+                  alt=""
+                />{" "}
+                Python
+
+              </button>
+              <button className="border border-black/20 p-5 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
+                <img
+                  className="h-[30px] w-[30px]  md:h-[40px] md:w-[40px]  "
+                  src={pandasLogo}
+                  alt=""
+                />{" "}
+                Pandas
+
+              </button>
+              <button className="border border-black/20 p-5 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
+                <img
+                  className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]   "
+                  src={numpyLogo}
+                  alt=""
+                />{" "}
+                NumPy
+
+              </button>
+
+              <button className="border border-black/20 p-5 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
+                <img
+                  className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]   "
+                  src={matplotlibLogo}
+                  alt=""
+                />
+                Matplotlib
+               
+
+
+
+              </button>
+                <button className="border border-black/20 p-5 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
+                <img
+                  className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]   "
+                  src={seabornLogo}
+                  alt=""
+                />{" "}
+                Seaborn
+
+              </button>
+                <button className="border border-black/20 p-5 rounded-sm  hover:bg-black/5  cursor-pointer  hover:opacity-70 text-black flex gap-1 justify-center items-center">
+                <img
+                  className="h-[30px] w-[30px] md:h-[40px] md:w-[40px]   "
+                  src={streamlitLogo}
+                  alt=""
+                />{" "}
+                Streamlit
+
+              </button>
+            </div>
+
+            <button className="text-white border-black p-4 bg-black  rounded-md flex gap-2 justify-center items-center">
+              <FaLink />
+              <a
+                href="https://asian-development-analysis-isha.streamlit.app/"
                 className="text-white"
               >
                 Visit Website
